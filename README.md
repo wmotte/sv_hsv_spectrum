@@ -38,7 +38,7 @@ We bevinden ons in een fundamenteel ander tijdperk. Wat vroeger maanden kostte a
 1. **Systematische variatie**: In plaats van een "fase A/B/C" kunnen we het hele spectrum genereren en visualiseren
 2. **Transparante argumentatie**: Elke wijziging wordt gedocumenteerd met type, motivering en linguistische grondslag
 3. **Reproduceerbaar proces**: Het volledige prompt staat in deze repository - iedereen kan het zelf uitvoeren
-4. **Toegankelijk**: Voor 400 euro en een weekend werk kan elke geinteresseerde het volledige experiment herhalen
+4. **Toegankelijk**: Voor 400 euro en een paar weken werk kan elke geinteresseerde de restauratie herhalen
 
 ### Wat dit project NIET is:
 
@@ -50,13 +50,13 @@ We bevinden ons in een fundamenteel ander tijdperk. Wat vroeger maanden kostte a
 ## Implicaties voor het debat
 
 ### Voor de GBS
-Wanneer taalkundig onderhoud zo toegankelijk wordt, verschuift de vraag van "kunnen we dit betalen?" naar "durven we te kiezen?". De GBS-methodologie (alleen woorden die misverstaan worden) kan nu snel op de hele SV worden toegepast en getoetst.
+Wanneer taalkundig onderhoud zo toegankelijk wordt, verschuift de vraag van "kunnen we dit opbrengen?" naar "durven we te kiezen?". De GBS-methodologie (alleen woorden die misverstaan worden) kan nu snel op de hele SV worden toegepast en getoetst.
 
 ### Voor SV2027  
 Het transparantieprobleem (anonieme commissie, onduidelijke criteria) kan worden geadresseerd. Algoritmes kunnen immers geen autoriteit claimen - alleen argumenten geven. Dit dwingt tot explicitering.
 
 ### Voor de HSV
-Een "HSV 2.0" die rekening houdt met 15 jaar taalverandering sinds 2010 wordt nu exploreerbaar. Is er ruimte voor "onderhoud van de herziening"?
+Een "HSV 2.0" die rekening houdt met 15 jaar taalverandering sinds 2010 - verschijning HSV - wordt nu exploreerbaar. Is er ruimte voor "onderhoud van de herziening"?
 
 ### Voor scholen en gemeenten
 In plaats van te wachten op een definitieve editie, kunnen meerdere varianten naast elkaar worden bestudeerd. Welke past het beste bij onze gemeente, onze leerlingen?
@@ -111,4 +111,4 @@ Predikant, Interkerkelijk Dovenpastoraat
 Onderzoeker, UMC Utrecht  
 📧 w.m.otte@umcutrecht.nl
 
-*"Want dit is wel het eerste, dat hun de woorden Gods zijn toebetrouwd" (Romeinen 3:2b)*
+*"Want dit is wel het eerste, dat hun de woorden Gods zijn toebetrouwd" (Romeinen 3:2b (SV))*
