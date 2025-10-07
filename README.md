@@ -27,7 +27,7 @@ Uit onderzoek van het Hoornbeeck College (2023) bleek dat nog maar 50% van de jo
 Met de komst van SV2027 ontstaan er vier verschillende SV-edities naast elkaar (GBS-editie, HSV, herziene GBS, SV2027). De vraag: *leidt dit niet tot versnippering in plaats van eenheid?*
 
 ### 4. **Transparantie en tempo**
-De begeleidingscommissie van SV2027 bleef anoniem, de definitieve keuzes onduidelijk. De GBS werkt zorgvuldig maar traag. De vraag: *komt een oplossing wel op tijd?*
+De begeleidingscommissie van SV2027 is anoniem, de definitieve keuzes zijn nog onduidelijk. De GBS werkt zorgvuldig maar traag. De vraag: *komt een oplossing wel op tijd?*
 
 ## Het tijdperk van abundance
 
@@ -76,10 +76,32 @@ Snelheid is pas gevaarlijk bij ondoordachte implementatie. Deze tool versnelt ex
 
 ## Technische details
 
+### Hoofdproces: Tekstvariantgeneratie
+
 - **Input**: Parallelle SV- en HSV-teksten per vers
 - **Output**: 4-6 restauratievarianten met gedocumenteerde edits
 - **Model**: Claude Sonnet 4.5 (of equivalent)
-- **Methodologie**: Zie `PROMPT.md` voor het volledige systeem-prompt
+- **Methodologie**: Zie `prompt/PROMPT.md` voor het volledige systeem-prompt
+
+### Additioneel: Virtuele Neerlandicus voor taalkundige feedback
+
+Naast het generatieproces is er een **tweede fase** ontwikkeld: een gespecialiseerd taalmodel dat fungeert als "virtuele Neerlandicus" voor taalkundige kwaliteitsbeoordeling.
+
+**Functie:**
+- Beoordeelt gegenereerde varianten op **taalkundige kwaliteit** (grammatica, idioom, consistentie, register, interpunctie)
+- Werkt **voorbereidend**: levert gestructureerde feedback voordat menselijke redacteuren het werk beoordelen
+- Geeft **geen theologische of inhoudelijke kritiek** - uitsluitend linguïstische analyse
+- Respecteert het registerniveau per variant (van klassiek-formeel tot hedendaags-natuurlijk)
+
+**Output:**
+- JSON-bestand met bevindingen per vers en per variant
+- Driedeling: kritiek (moet aangepast) / waarschuwing (suboptimaal) / suggestie (kan beter)
+- Inclusief concrete voorstellen en toelichting
+- Ook positieve punten: wat is taalkundig goed opgelost?
+
+**Prompt:** Zie `prompt_virt_nl/PROMPT.md` voor het volledige systeem-prompt van de virtuele Neerlandicus
+
+Dit twee-fasenproces (generatie + taalkundige review) zorgt voor systematische kwaliteitscontrole voordat revisoren hun oordeel geven. De AI doet het voorbereidende taalkundige spitwerk; de inhoudelijke en theologische verantwoordelijkheid blijft menselijk.
 
 De standalone HTML-viewer (`docs/index.html`) toont enkele voorbeelden van de output met interactieve weergave van wijzigingen en argumentaties.
 
