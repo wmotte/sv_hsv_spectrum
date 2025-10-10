@@ -78,7 +78,7 @@ Snelheid is pas gevaarlijk bij ondoordachte implementatie. Deze tool versnelt ex
 
 ### Hoofdproces: Tekstvariantgeneratie
 
-- **Input**: Parallelle SV- en HSV-teksten per vers
+- **Input**: Parallelle SV- en HSV-teksten per vers (SV: 1886-editie)
 - **Output**: 4-6 restauratievarianten met gedocumenteerde edits
 - **Model**: Claude Sonnet 4.5 (of equivalent)
 - **Methodologie**: Zie `prompt/PROMPT.md` voor het volledige systeem-prompt
