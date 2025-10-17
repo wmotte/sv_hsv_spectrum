@@ -83,9 +83,9 @@ Snelheid is pas gevaarlijk bij ondoordachte implementatie. Deze tool versnelt ex
 - **Model**: Claude Sonnet 4.5 (of equivalent)
 - **Methodologie**: Zie `prompt/PROMPT.md` voor het volledige systeem-prompt
 
-### Additioneel: Virtuele Neerlandicus voor taalkundige feedback
+### Additioneel: Virtuele neerlandicus voor taalkundige feedback
 
-Naast het generatieproces is er een **tweede fase** ontwikkeld: een gespecialiseerd taalmodel dat fungeert als "virtuele Neerlandicus" voor taalkundige kwaliteitsbeoordeling.
+Naast het generatieproces is er een **tweede fase** ontwikkeld: een gespecialiseerd taalmodel dat fungeert als "virtuele neerlandicus" voor taalkundige kwaliteitsbeoordeling.
 
 **Functie:**
 - Beoordeelt gegenereerde varianten op **taalkundige kwaliteit** (grammatica, idioom, consistentie, register, interpunctie)
@@ -99,7 +99,7 @@ Naast het generatieproces is er een **tweede fase** ontwikkeld: een gespecialise
 - Inclusief concrete voorstellen en toelichting
 - Ook positieve punten: wat is taalkundig goed opgelost?
 
-**Prompt:** Zie `prompt_virt_nl/PROMPT.md` voor het volledige systeem-prompt van de virtuele Neerlandicus
+**Prompt:** Zie `prompt_virt_nl/PROMPT.md` voor het volledige systeem-prompt van de virtuele neerlandicus
 
 Dit twee-fasenproces (generatie + taalkundige review) zorgt voor systematische kwaliteitscontrole voordat revisoren hun oordeel geven. De AI doet het voorbereidende taalkundige spitwerk; de inhoudelijke en theologische verantwoordelijkheid blijft menselijk.
 
