@@ -3,6 +3,8 @@
 
 🌐 **[Bekijk de interactieve demo](https://wmotte.github.io/sv_hsv_spectrum/)**
 
+📄 **[Motivatie.pdf](Motivatie.pdf)**
+
 ## Over dit project
 
 Dit repository laat zien hoe moderne taalmodellen kunnen worden ingezet om systematisch verschillende restauratievarianten van de Statenvertaling te genereren. In plaats van jarenlange handmatige arbeid door commissies, kunnen we nu in enkele dagen het volledige spectrum van SV naar HSV in kaart brengen - inclusief experimentele varianten zoals een "HSV 2.0".
