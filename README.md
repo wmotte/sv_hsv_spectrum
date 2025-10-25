@@ -3,7 +3,7 @@
 
 🌐 **[Bekijk de interactieve demo](https://wmotte.github.io/sv_hsv_spectrum/)**
 
-🌐 **[Zie ook - voor kanttekeningen - de pilotstudie)[https://wmotte.github.io/sv1657_pilot/]**
+🌐 **[Zie ook - voor kanttekeningen - de pilotstudie](https://wmotte.github.io/sv1657_pilot/)**
 
 📄 **[Motivatie.pdf](Motivatie.pdf)**
 
